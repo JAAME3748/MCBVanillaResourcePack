@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "particle_effect": {
     "description": {
-      "identifier": "minecraft:lava_drip_particle",
+      "identifier": "minecraft:green_drip_particle",
       "basic_render_parameters": {
         "material": "particles_alpha",
         "texture": "textures/particle/particles"
@@ -44,9 +44,9 @@
       },
       "minecraft:particle_appearance_tinting": {
         "color": [
+          "(0.8 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)) + 0.4",
           1.0,
-          "0.8 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)",
-          "0.2 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.4)",
+          "(0.8 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)) + 0.4",
           1.0
         ]
       }
