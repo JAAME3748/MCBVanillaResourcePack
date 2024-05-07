@@ -44,9 +44,9 @@
       },
       "minecraft:particle_appearance_tinting": {
         "color": [
-          "(0.8 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)) + 0.4",
+          "1.6 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)",
           1.0,
-          "(0.8 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)) + 0.4",
+          "1.6 / (variable.stuck_time - (variable.stuck_time-variable.particle_age) + 0.8)",
           1.0
         ]
       }
