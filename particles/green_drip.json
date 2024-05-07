@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "particle_effect": {
     "description": {
-      "identifier": "minecraft:water_drip_particle",
+      "identifier": "minecraft:green_drip",
       "basic_render_parameters": {
         "material": "particles_alpha",
         "texture": "textures/particle/particles"
@@ -11,7 +11,7 @@
     "events": {
       "splash": {
         "particle_effect": {
-          "effect": "minecraft:rain_splash_particle",
+          "effect": "minecraft:green_splash_particle",
           "type": "particle"
         }
       }
@@ -64,7 +64,7 @@
         }
       },
       "minecraft:particle_appearance_tinting": {
-        "color": [ 0.2, 0.3, 1.0 ]
+        "color": [ 0.33, 1, 0.330 ]
       },
       "minecraft:particle_appearance_lighting": {}
     }
