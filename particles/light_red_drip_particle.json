@@ -44,9 +44,9 @@
       },
       "minecraft:particle_appearance_tinting": {
         "color": [
-          1.0,
-          0.33,
-          0.33,
+          "1.0 - (0.1 * variable.particle_age)",
+          "0.33 - (0.1 * variable.particle_age)",
+          "0.33 - (0.1 * variable.particle_age)",
           1.0
         ]
       }
