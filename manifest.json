@@ -1,18 +1,18 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Lava Drip, Water Drip, All Falling Dust Particles and New Particles [Aqua, Yellow, Green, Purple, Deep_Purple, White & Red] by Jaame3748",
-        "name": "Fixed&New Particles [0.0.7]",
-        "uuid": "66c6e9a8-3093-462a-9c36-dbb052155007",
-        "version": [0, 0, 7],
+        "description": "Lava Drip, Water Drip, All Falling Dust Particles and New Particles [Aqua, Yellow, Green, Purple, Deep_Purple,Light Red, White & Red] by Jaame3748",
+        "name": "Fixed&New Particles [0.0.8]",
+        "uuid": "66c6e9a8-3093-462a-9c36-dbb052155008",
+        "version": [0, 0, 8],
         "min_engine_version": [ 1, 20, 30 ]
     },
     "modules": [
         {
             "description": "Lava Drip, Water Drip & All Falling Dust Particles by Jaame3748",
             "type": "resources",
-            "uuid": "743f6949-53be-44b6-b326-398005058007",
-            "version": [0, 0, 7]
+            "uuid": "743f6949-53be-44b6-b326-398005058008",
+            "version": [0, 0, 8]
         }
     ]
 }
