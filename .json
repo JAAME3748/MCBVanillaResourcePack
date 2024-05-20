@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "",
+        "name": "Test Lab by jaame3748 (Tfilmcraft)",
+        "lock_template_options": true,
+        "uuid": "66c6e9a8-3093-462a-9c36-dbb052155000",
+        "version": [0, 0, 9],
+        "min_engine_version": [ 1, 20, 30 ]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "world_template",
+            "uuid": "743f6949-53be-44b6-b326-398005058000",
+            "version": [0, 0, 9]
+        }
+    ]
+}
